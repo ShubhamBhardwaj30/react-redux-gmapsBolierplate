@@ -1,0 +1,33 @@
+{
+  "name": "Transparence_App",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "native-base": "^2.8.1",
+    "react": "16.5.0",
+    "react-addons-update": "^15.6.2",
+    "react-native": "0.57.1",
+    "react-native-maps": "^0.21.0",
+    "react-native-router-flux": "^4.0.5",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-socket.io": "^1.4.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/runtime": "^7.1.2",
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.47.0",
+    "react-test-renderer": "16.5.0",
+    "redux-logger": "^3.0.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
